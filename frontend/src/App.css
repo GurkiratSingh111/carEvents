@@ -1,0 +1,17 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');
+.App{
+  background-color: #212037;
+}
+*{
+  font-family: 'Oswald', sans-serif;
+}
+.remove-later{
+  height: 500px;
+  width: 100%;
+}
+.remove-later-2{
+  height: 500px;
+  width: 100%;
+  background-color: white;
+}

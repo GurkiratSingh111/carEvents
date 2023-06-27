@@ -1,0 +1,23 @@
+footer > div {
+    margin: 0 150px;
+    display: flex;
+}
+footer{
+    color: white;
+    background: radial-gradient(#36325a,#1e1d32);
+}
+footer a{
+    text-decoration: none;
+}
+footer li{
+    list-style: none;
+}
+.footer-social-row > div {
+    margin: 15px
+}
+.footer-copyright-row{
+    padding-bottom: 30px;
+}
+.footer-link-row-column-1 , .footer-link-row-column-2{
+    margin: 10px 20px;
+}
