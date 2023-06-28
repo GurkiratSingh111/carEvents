@@ -1,0 +1,11 @@
+.event-carousel-item{
+    width: 18%;
+}
+
+.event-carousel-item-image{
+    margin: 0 5px;
+    width: calc(100% - 10px);
+    height: auto;
+    border-radius: 7px;
+    box-shadow: 1px 0px 20px grey;
+}
