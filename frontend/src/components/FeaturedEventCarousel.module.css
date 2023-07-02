@@ -1,25 +1,74 @@
-.carousel-container{
-    width: 60%;
-    background-color: white;
-    border-top-right-radius: 20px;
-    position: relative;
+.container {
+  display: flex;
+  width: 100%;
+  height: 100%;
+  border-end-start-radius: 20px;
+  background-color: white;
 }
-.carousel-container::before{
-    content: "";
-    width: 100%;
-    height: 100%;
-    background-color: #212037;
-    position: absolute;
-    top: 0;
-    left: 0;
-    transform: translateX(90%);
-    border-radius: 20px;
-    z-index: -1;
+
+.featured-car-events {
+  padding: 30px;
+  display: flex;
+  justify-content: space-between;
+  overflow: hidden;
+  flex-wrap: wrap;
 }
-.featured-car-events{
-    padding: 30px;
-    display: flex;
-    justify-content: space-between;
-    overflow: hidden;
-    flex-wrap: wrap;
+.carousel-right-box {
+  background-color: #212037;
+  width: 40%;
+  border-bottom-left-radius: 30px;
 }
+.carousel-container::before {
+  content: "";
+  width: 100%;
+  height: 100%;
+  background-color: #212037;
+  position: absolute;
+  top: 0;
+  left: 0;
+  transform: translateX(60%);
+  border-radius: 20px;
+  z-index: -1;
+}
+
+.carousel-container {
+  width: 60%;
+  background-color: white;
+  border-top-right-radius: 20px;
+  position: relative;
+}
+
+.featured-car-events {
+  padding: 30px;
+  display: flex;
+  justify-content: space-between;
+  overflow: hidden;
+  flex-wrap: wrap;
+}
+
+/* .carousel-container {
+  width: 60%;
+  background-color: white;
+  border-top-right-radius: 20px;
+  position: relative;
+}
+.carousel-container::before {
+  content: "";
+  width: 100%;
+  height: 100%;
+  background-color: #212037;
+  position: absolute;
+  top: 0;
+  left: 0;
+  transform: translateX(60%);
+  border-radius: 0 0 0 20px; /* Adjusted border-radius values 
+  z-index: -1;
+}
+.featured-car-events {
+  padding: 30px;
+  display: flex;
+  justify-content: space-between;
+  overflow: hidden;
+  flex-wrap: wrap;
+}
+ */

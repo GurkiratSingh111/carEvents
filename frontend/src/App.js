@@ -1,8 +1,4 @@
 import './App.css';
-import FeaturedEventCarousel from './components/FeaturedEventCarousel';
-import Footer from './components/Footer';
-import MainMenu from './components/MainMenu';
-
 import Home from './components/Home';
 import Categories from './components/Categories';
 import Reviews from './components/Reviews'
@@ -30,6 +26,7 @@ const router = createBrowserRouter([
 function App() {
   return (
     <RouterProvider router={router} />
+
   );
 }
 
